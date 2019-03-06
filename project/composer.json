@@ -1,0 +1,30 @@
+{
+    "name": "caiolandgraf/crud",
+    "description": "Projeto C.R.U.D Giovanni",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Caio Landgraf",
+            "email": "caiolandgraf@outlook.com",
+            "homepage": "http://www.suporteinformatika.com.br",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "files": [
+            "sk\\Helpers\\functions.php"
+        ],
+        "psr-4": {
+            "SK\\": "sk"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "ext-pdo": "^7.1",
+        "twbs/bootstrap": "^4.3",
+        "fortawesome/font-awesome": "^5.7"
+    }
+}

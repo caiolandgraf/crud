@@ -1,0 +1,9 @@
+.username{
+    color: #1F2026;
+}
+
+.username:hover{
+    font-weight: bold;
+    color: deepskyblue;
+    text-decoration:none;
+}
